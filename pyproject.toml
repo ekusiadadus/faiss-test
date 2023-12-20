@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "faiss-test"
+version = "0.1.0"
+description = ""
+authors = ["ekusiadadus <ekusiadadus@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "faiss_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
